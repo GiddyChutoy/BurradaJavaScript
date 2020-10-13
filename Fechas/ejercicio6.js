@@ -14,6 +14,11 @@ class Fecha{
         var fechaActual = new Fecha(dia, mes, ano);
         return "Hoy es: " + fechaActual.dia + ", a mes: " + fechaActual.mes + " y año: " + fechaActual.ano;
     }
+
+    toString(){
+        return "Dia: " + this.dia + ", mes: " + this.mes + ", año: " + this.ano;
+        //return this.ano;
+    }
 }
 
 let fecha1 = new Fecha(2,3,456);
@@ -22,3 +27,7 @@ let fecha3 = new Fecha(7,9,123);
 let fecha4 = new Fecha(16,8,2000);
 let fecha5 = new Fecha(30,6,3098);
 let fecha6 = new Fecha(12,10,1492);
+
+var arrayFechas = [fecha1, fecha2, fecha3, fecha4, fecha5, fecha6];
+arrayFechas.sort();
+arrayFechas.toString();
