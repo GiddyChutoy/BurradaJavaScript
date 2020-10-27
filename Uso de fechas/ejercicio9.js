@@ -28,5 +28,5 @@ let fecha = new Date();
 console-log(fecha.getDate);
 console-log(fecha.getTime);
 console-log(fecha.getUTCFullYear);
-console-log(fecha.);
-console-log(fecha.);
+//console-log(fecha.);
+//console-log(fecha.);
